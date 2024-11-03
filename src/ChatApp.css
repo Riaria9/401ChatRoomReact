@@ -1,0 +1,95 @@
+.chat-app-container {
+  display: flex;
+  height: 100vh; /* Full height */
+  width: 100%; /* Full width */
+}
+
+.control-bar {
+  width: 94px;
+  height: 100%; /* Full height */
+  background-color: #f0f0f0; /* Adjust color as needed */
+  border-right: 1px solid #ccc;
+}
+
+.players-section {
+  width: 286px;
+  height: 100%; /* Full height */
+  background-color: #ffffff; /* Adjust color as needed */
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.players-list {
+  flex-grow: 1;
+}
+
+.player {
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #eaeaea; /* Adjust color as needed */
+  border-radius: 5px;
+}
+
+.your-identity {
+  text-align: center;
+}
+
+.identity {
+  font-weight: bold;
+}
+
+.chat-section {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.chat-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.chat-messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message {
+  margin-bottom: 5px;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+}
+
+.chat-input input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.chat-input button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #0056b3;
+}
